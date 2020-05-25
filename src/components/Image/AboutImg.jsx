@@ -13,7 +13,7 @@ const AboutImg = ({ filename, alt }) => (
               relativePath
               name
               childImageSharp {
-                fixed(width: 350) {
+                fixed(width: 350, quality: 100) {
                   ...GatsbyImageSharpFixed
                 }
               }
@@ -22,8 +22,8 @@ const AboutImg = ({ filename, alt }) => (
         }
       }
     `}
-    render={data => {
-      const image = data.images.edges.find(n => {
+    render={(data) => {
+      const image = data.images.edges.find((n) => {
         return n.node.relativePath.includes(filename);
       });
 
