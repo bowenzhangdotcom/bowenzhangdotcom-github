@@ -35,16 +35,16 @@ export const projectsData = [
   //   url: '',
   //   repo: '',
   // },
-  {
-    id: uuidv1(),
-    img: 'stonks.png',
-    title: 'NiceStocks.Info - WIP',
-    info: 'Daily stock price tracker with alerts set for specific price movements',
-    info2:
-      'Building with React, Node.js, Material UI. Note: See Live link is disabled until project completion.', // TODO add stock api used
-    url: '',
-    repo: 'https://github.com/bowenzhangdotcom',
-  },
+  // {
+  //   id: uuidv1(),
+  //   img: 'stonks.png',
+  //   title: 'NiceStocks.Info - WIP',
+  //   info: 'Daily stock price tracker with alerts set for specific price movements',
+  //   info2:
+  //     'Building with React, Node.js, Material UI. Note: See Live link is disabled until project completion.', // TODO add stock api used
+  //   url: '',
+  //   repo: 'https://github.com/bowenzhangdotcom',
+  // },
   {
     id: uuidv1(),
     img: 'covid-project.png',
