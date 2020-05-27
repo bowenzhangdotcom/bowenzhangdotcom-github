@@ -33,26 +33,26 @@ export const projectsData = [
   //   info: '',
   //   info2: '',
   //   url: '',
-  //   repo: 'https://github.com/cobidev/react-simplefolio',
-  // },
-  // {
-  //   id: uuidv1(),
-  //   img: 'nice-stocks-logo.jpg',
-  //   title: 'NiceStocks.Info - WIP',
-  //   info:
-  //     'Tracks comparisons of stock price changes to discussions on investing-related subreddits',
-  //   info2: 'Currently building with React',
-  //   url: 'www.nicestocks.info',
-  //   repo: 'https://github.com/bowenzhangdotcom',
+  //   repo: '',
   // },
   {
     id: uuidv1(),
-    img: 'covid-placeholder.png',
-    title: 'COVID-19 Tracker - WIP',
+    img: 'stonks.png',
+    title: 'NiceStocks.Info - WIP',
+    info: 'Daily stock price tracker with alerts set for specific price movements',
+    info2:
+      'Building with React, Node.js, Material UI. Note: See Live link is disabled until project completion.', // TODO add stock api used
+    url: '',
+    repo: 'https://github.com/bowenzhangdotcom',
+  },
+  {
+    id: uuidv1(),
+    img: 'covid-project.png',
+    title: 'COVID-19 Tracker',
     info:
-      'Building a global tracker for COVID-19 infections, recoveries, and deaths. Data is filterable by country and is updated in real-time.',
-    info2: 'Using React, Chart.js, Material UI, and data from the Johns Hopkins CSSE API',
-    url: '#',
+      'Global tracker for COVID-19 infections, recoveries, and deaths. Data is available individually by country and is updated in real-time.',
+    info2: 'Built with React, Node.js, Material UI, and data from the Johns Hopkins CSSE API',
+    url: 'https://bowenzhang.com/corona-tracker/',
     repo: 'https://github.com/bowenzhangdotcom/corona-tracker',
   },
 ];
