@@ -18,8 +18,8 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile1.jpg',
-  paragraphOne: `I'm a self-taught full stack developer with experience in JavaScript, Python, & Java and am excited to share my personal projects with you!`,
-  paragraphTwo: `Professionally, I am pursuing my passion for technology through the UPWARD rotational program at Yext. I graduated in 2017 from Cornell University with a B.S. in Finance & Strategy and am a former management consultant with ZS Associates.`,
+  paragraphOne: `I'm a self-taught full stack developer with experience in JavaScript, Python, & Java. Thanks for stopping by, I'm excited to share my personal projects with you!`,
+  paragraphTwo: `Currently, I am pursuing my passion for technology through the UPWARD rotational program at Yext. I graduated in 2017 from Cornell University with a B.S. in Finance & Strategy.  I am also a former management consultant with ZS Associates.`,
   paragraphThree: `Outside of work, I also enjoy poker, electronic music, Super Smash Bros. and getting better at picking heavy things up and putting them down`,
   resume: 'https://www.linkedin.com/in/bowenzhangdotcom/',
 };
@@ -61,7 +61,7 @@ export const projectsData = [
 export const contactData = {
   cta: 'Want to learn more?',
   btn: 'Contact me',
-  email: 'mailto:bowenzhang@gmail.com',
+  email: 'mailto:bowen@bowenzhang.com',
 };
 
 // FOOTER DATA
