@@ -41,7 +41,7 @@ export const projectsData = [
   //   title: 'NiceStocks.Info - WIP',
   //   info: 'Daily stock price tracker with alerts set for specific price movements',
   //   info2:
-  //     'Building with React, Node.js, Material UI. Note: See Live link is disabled until project completion.', // TODO add stock api used
+  //     'Building with React, Node.js, Material UI and the Alphavantage API.
   //   url: '',
   //   repo: 'https://github.com/bowenzhangdotcom',
   // },
@@ -82,5 +82,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
