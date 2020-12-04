@@ -62,7 +62,7 @@ export const projectsData = [
     info:
       'Global tracker for COVID-19 infections, recoveries, and deaths. Data is available individually by country and is updated in real-time.',
     info2: 'Built with React.js and Node.js. Data from the Johns Hopkins CSSE API',
-    url: 'https://bowenzhang.com/corona-tracker/',
+    url: 'https://bowenzhang.com/covid-19tracker/',
     repo: 'https://github.com/bowenzhangdotcom/corona-tracker',
   },
 ];
