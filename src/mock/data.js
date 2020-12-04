@@ -52,7 +52,7 @@ export const projectsData = [
       "Poker range charts for heads-up and 6max online No Limit Texas Hold'em with a RNG calculator.",
     info2:
       'Server built with Node.js, MongoDB, and Express.js. Front end made with React.js. Data processed and uploaded with Python.',
-    url: 'https://bowenzhang.com/preflop-poker-local/',
+    url: 'https://bowenzhang.com/PreflopPokerAssistant/',
     repo: 'https://github.com/bowenzhangdotcom/preflop-poker-local',
   },
   {
