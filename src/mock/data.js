@@ -2,7 +2,7 @@ import { v1 as uuidv1 } from 'uuid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Bowen Zhang | Developer',
+  title: "Bowen's Personal Projects",
   lang: 'en',
   description: 'Welcome to BowenZhang.com!',
 };
@@ -35,25 +35,25 @@ export const projectsData = [
   //   url: '',
   //   repo: '',
   // },
-  // {
-  //   id: uuidv1(),
-  //   img: 'stonks.png',
-  //   title: 'NiceStocks.Info - WIP',
-  //   info: 'Daily stock price tracker with alerts set for specific price movements',
-  //   info2:'Building with React, Node.js, Material UI and the Alphavantage API.',
-  //   url: '',
-  //   repo: 'https://github.com/bowenzhangdotcom',
-  // },
   {
     id: uuidv1(),
     img: 'poker-preflop.png',
     title: 'Preflop Poker Assistant',
     info:
-      "Poker range charts for heads-up and 6max online No Limit Texas Hold'em with a RNG calculator.",
-    info2:
-      'Server built with Node.js, MongoDB, and Express.js. Front end made with React.js. Data processed and uploaded with Python.',
+      "Displays poker range charts for heads-up and 6max online No Limit Texas Hold'em with a RNG calculator.",
+    info2: 'Made with React.js and queries data from the Preflop Poker Assistant Server.',
     url: 'https://bowenzhang.com/PreflopPokerAssistant/',
-    repo: 'https://github.com/bowenzhangdotcom/preflop-poker-local',
+    repo: 'https://github.com/bowenzhangdotcom/PreflopPokerAssistant',
+  },
+  {
+    id: uuidv1(),
+    img: 'ppa_server.png',
+    title: 'Preflop Poker Assistant Server',
+    info: 'Converts poker shorthand ranges into a hand matrix stored in MongoDB.',
+    info2:
+      'Made with Node.js, MongoDB, Express.js, and Joi. Data processed and uploaded with Python.',
+    url: 'https://poker-preflop.herokuapp.com/',
+    repo: 'https://github.com/bowenzhangdotcom/poker-preflop-server',
   },
   {
     id: uuidv1(),
@@ -63,7 +63,7 @@ export const projectsData = [
       'Global tracker for COVID-19 infections, recoveries, and deaths. Data is available individually by country and is updated in real-time.',
     info2: 'Built with React.js and Node.js. Data from the Johns Hopkins CSSE API',
     url: 'https://bowenzhang.com/covid-19tracker/',
-    repo: 'https://github.com/bowenzhangdotcom/corona-tracker',
+    repo: 'https://github.com/bowenzhangdotcom/covid-19tracker',
   },
 ];
 
