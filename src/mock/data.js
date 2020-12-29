@@ -20,7 +20,7 @@ export const aboutData = {
   img: 'profile1.jpg',
   paragraphOne: `I'm a self-taught full stack developer with experience in JavaScript and Python. Thanks for stopping by, I'm excited to share my personal projects with you!`,
   paragraphTwo: `Currently, I am pursuing my passion for technology through the UPWARD rotational program at Yext as part of the Data Science and Machine Learning team. I graduated in 2017 from Cornell University with a B.S. in Finance & Strategy and previously worked at ZS Associates as a management consultant.`,
-  paragraphThree: `Outside of work, I also enjoy poker, electronic music, Super Smash Bros. and getting better at picking heavy things up and putting them down`,
+  paragraphThree: `Outside of work, I also enjoy poker, electronic music, Super Smash Bros. and getting better at picking heavy things up and putting them down.`,
   resume: 'https://www.linkedin.com/in/bowenzhangdotcom/',
 };
 
