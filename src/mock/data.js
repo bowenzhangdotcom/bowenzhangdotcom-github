@@ -60,7 +60,7 @@ export const projectsData = [
     img: 'covid-project.png',
     title: 'COVID-19 Tracker',
     info:
-      'Global tracker for COVID-19 infections, recoveries, and deaths. Data is available individually by country and is updated in real-time.',
+      'Global tracker for COVID-19 infections, recoveries, and deaths. Data is available individually by country and is updated in real-time. Note the API powering the global line chart can be spotty but country specific data requests have been stable.',
     info2: 'Built with React.js and Node.js. Data from the Johns Hopkins CSSE API',
     url: 'https://bowenzhang.com/covid-19tracker/',
     repo: 'https://github.com/bowenzhangdotcom/covid-19tracker',
