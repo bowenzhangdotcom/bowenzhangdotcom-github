@@ -20,7 +20,7 @@ export const aboutData = {
   img: 'profile1.jpg',
   paragraphOne: `I'm a self-taught full stack developer with experience in JavaScript and Python. Thanks for stopping by, I'm excited to share my personal projects with you!`,
   paragraphTwo: `Currently, I am pursuing my passion for technology through the UPWARD rotational program at Yext as part of the Product Mangement team with previous experience on the Data Science and Machine Learning team. I graduated in 2017 from Cornell University with a B.S. in Finance & Strategy and also worked at ZS Associates as a management consultant.`,
-  paragraphThree: `Outside of work, I also enjoy poker, electronic music, Super Smash Bros. and getting better at picking up heavy things and putting them down.`,
+  paragraphThree: `Outside of work, I enjoy playing poker, listening to electronic music, watching Super Smash Bros. and getting better at picking up heavy things and putting them down.`,
   resume: 'https://www.linkedin.com/in/bowenzhangdotcom/',
 };
 
@@ -35,6 +35,16 @@ export const projectsData = [
   //   url: '',
   //   repo: '',
   // },
+  {
+    id: uuidv1(),
+    img: 'DD_me.png',
+    title: 'DateDash.me',
+    info: "Data visualizer for a Hinge user's dating activity.",
+    info2:
+      'Created with React.js and data from Hinge. Data is processed client-side with Javascript.',
+    url: 'https://datedash.me/',
+    repo: 'https://github.com/bowenzhangdotcom/datedashme',
+  },
   {
     id: uuidv1(),
     img: 'poker-preflop.png',
@@ -52,7 +62,6 @@ export const projectsData = [
     info: 'Converts poker shorthand ranges into a hand matrix stored in MongoDB.',
     info2:
       'Made with Node.js, MongoDB, Express.js, and Joi. Data processed and uploaded with Python.',
-    url: 'https://poker-preflop.herokuapp.com/',
     repo: 'https://github.com/bowenzhangdotcom/poker-preflop-server',
   },
   {
@@ -60,7 +69,7 @@ export const projectsData = [
     img: 'covid-project.png',
     title: 'COVID-19 Tracker',
     info:
-      'Global tracker for COVID-19 infections, recoveries, and deaths. Data is available individually by country and is updated in real-time. Note the API powering the global line chart can be spotty but country specific data requests have been stable.',
+      'Global tracker for COVID-19 infections, recoveries, and deaths. Data is available individually by country and is updated in real-time.',
     info2: 'Built with React.js and Node.js. Data from the Johns Hopkins CSSE API',
     url: 'https://bowenzhang.com/covid-19tracker/',
     repo: 'https://github.com/bowenzhangdotcom/covid-19tracker',
