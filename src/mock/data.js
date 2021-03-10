@@ -39,7 +39,7 @@ export const projectsData = [
     id: uuidv1(),
     img: 'DD_me.png',
     title: 'DateDash.me',
-    info: "Data visualizer for a Hinge user's dating activity.",
+    info: 'Dashboard for Hinge activity with interaction breakdowns by matches and date.',
     info2:
       'Created with React.js and data from Hinge. Data is processed client-side with Javascript.',
     url: 'https://datedash.me/',
