@@ -18,9 +18,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile1.jpg',
-  paragraphOne: `I'm a self-taught full stack developer with experience in JavaScript and Python. Thanks for stopping by, I'm excited to share my personal projects with you!`,
-  paragraphTwo: `Currently, I am pursuing my passion for technology through the UPWARD rotational program at Yext as part of the Product Mangement team with previous experience on the Data Science and Machine Learning team. I graduated in 2017 from Cornell University with a B.S. in Finance & Strategy and also worked at ZS Associates as a management consultant.`,
-  paragraphThree: `Outside of work, I enjoy playing poker, listening to electronic music, watching Super Smash Bros. and getting better at picking up heavy things and putting them down.`,
+  paragraphOne: `I'm a self-taught developer turned systems software engineer at Yext. Thanks for stopping by, I'm excited to share my personal projects with you!`,
+  paragraphTwo: `I graduated in 2017 from Cornell University with a B.S. in Finance & Strategy and started my career at ZS Associates as a management consultant. After developing a passion for technology, I joined Yext's UPWARD rotational program, where I worked on the Data Science and Product Management teams. Currently, I support the Data Science & Machine Learning teams through building robust infrastructure for our Natural Language Processing (NLP) models powering Yext Answers.`,
+  paragraphThree: `Outside of work, I enjoy playing poker, listening to electronic music, watching Super Smash Bros. Melee, and getting better at picking up heavy things and putting them down.`,
   resume: 'https://www.linkedin.com/in/bowenzhangdotcom/',
 };
 
