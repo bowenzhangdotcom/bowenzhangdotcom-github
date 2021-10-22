@@ -51,18 +51,18 @@ export const projectsData = [
     title: 'Preflop Poker Assistant',
     info:
       "Displays poker range charts for heads-up and 6max online No Limit Texas Hold'em with a RNG calculator.",
-    info2: 'Made with React.js and queries data from the Preflop Poker Assistant Server.',
+    info2: 'Made with React.js and queries data from MongoDB with routing from Express.js.',
     url: 'https://bowenzhang.com/PreflopPokerAssistant/',
     repo: 'https://github.com/bowenzhangdotcom/PreflopPokerAssistant',
   },
   {
     id: uuidv1(),
-    img: 'ppa_server.png',
-    title: 'Preflop Poker Assistant Server',
-    info: 'Converts poker shorthand ranges into a hand matrix stored in MongoDB.',
-    info2:
-      'Made with Node.js, MongoDB, Express.js, and Joi. Data processed and uploaded with Python.',
-    repo: 'https://github.com/bowenzhangdotcom/poker-preflop-server',
+    img: 'poker-payment.png',
+    title: 'Poker Payment',
+    info:
+      'Distributes payments to people after a poker game. Built in support for PokerNow, DonkHouse, and manual form entries.',
+    info2: 'Made with React.js. and a love of poker home games.',
+    repo: 'https://github.com/bowenzhangdotcom/poker-payment',
   },
   {
     id: uuidv1(),
