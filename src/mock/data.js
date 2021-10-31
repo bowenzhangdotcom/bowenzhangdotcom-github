@@ -62,6 +62,7 @@ export const projectsData = [
     info:
       'Distributes payments to people after a poker game. Built in support for PokerNow, DonkHouse, and manual form entries.',
     info2: 'Made with React.js. and a love of poker home games.',
+    url: 'https://bowenzhang.com/poker-payment/',
     repo: 'https://github.com/bowenzhangdotcom/poker-payment',
   },
   {
